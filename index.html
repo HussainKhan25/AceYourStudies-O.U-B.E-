@@ -8,20 +8,43 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Screenshot%202024-02-29%20104902.png?updatedAt=1709192968447" alt="Logo">
+        <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Screenshot_2024-03-01_183656-removebg-preview.png?updatedAt=1709307460263" alt="Logo">
         <nav>
-            <a href="#">Home</a>
+            <a href="#" onclick="scrollToHome()">Home</a>
             <a href="#" onclick="scrollToAboutUs()">About Us</a>
-            <a href="#">Resources</a>
             <a href="#" onclick="scrollToTeam()">Team</a>
+            <a href="#">Resources</a>
         </nav>
     </div>
 
-    <div class="content">
-        <h1>Learn, Grow and Inspire!</h1>
-        <p>At AceYourStudies: O.U(B.E), you will find the best notes, playlists, and important materials for your engineering success, curated by experienced seniors who have excelled in their studies.</p>
-        <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Screenshot%202024-02-29%20094414.png?updatedAt=1709191253247" alt="Illustration">
+       <div class="home-section" id="home-section">
+        <div class="home-content">
+            <h1>Learn, Grow, Inspire</h1>
+            <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Screenshot_2024-03-01_151346-removebg-preview.png?updatedAt=1709306283578" alt="Illustration" class="home-image">
+        </div>
+        <div class="blink-text">
+            <h1>Why Choose AceYourStudies: O.U[B.E]?</h1>
+        </div>
 
+        <div class="home-section-box">
+            <div class="box">
+               
+                <p>You will get notes for each semester that we follow, along with recommended books if you want to delve deeper for a more detailed answer in the exam paper.</p>
+            </div>
+
+            <div class="box">
+              
+                <p>You will get important questions for each subject in every semester, giving you insight into the types of questions that may appear on the exam.</p>
+            </div>
+
+            <div class="box">
+              
+                <p>You will get playlists aligned with the OU syllabus to help you understand and solve problems efficiently, ultimately saving you time.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
         <div class="about-us" id="about-us">
             <h2>About Us</h2>
             <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Screenshot%202024-02-29%20121029.png?updatedAt=1709197886583" alt="About Us Image">
@@ -37,48 +60,73 @@
         </div>
 
         <div class="team-section" id="team-section">
-            <div class="team-member" id="team-members-container">
-                <h2>Team</h2>
+            <h2>Team</h2>
             <div class="team-member">
+                <!-- Box 1 -->
                 <div class="team-member-box">
                     <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/196dc56b-d806-4354-87ad-cf6ccef8e6f6.jpg?updatedAt=1709199399177" alt="Founder Image">
-                    <div class="team-member-name">Mohammed Hussain Abid Khan, Founder of AceYourStudies: O.U(B.E)</div>
+                    <div class="team-member-name">Mohammed Hussain Abid Khan</div>
                     <div class="team-member-role">IT Undergraduate, NSAKCET</div>
                     <div class="team-member-cgpa">CGPA: 8.0%</div>
+                    <div class="team-member-links">
+                        <a class="linkedin" href="#" target="_blank" title="LinkedIn"></a>
+                        <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+                    </div>
                 </div>
 
+                <!-- Box 2 -->
                 <div class="team-member-box">
                     <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/891f78f9-ce7d-4c98-867c-bd94e08fbb13.jpg?updatedAt=1709199399035" alt="Founder Image">
                     <div class="team-member-name">Md Vazahat Ali</div>
                     <div class="team-member-role">IT Undergraduate, NSAKCET</div>
                     <div class="team-member-cgpa">CGPA: 8.5%</div>
+                    <div class="team-member-links">
+                        <a class="linkedin" href="#" target="_blank" title="LinkedIn"></a>
+                        <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+                    </div>
                 </div>
 
+                <!-- Box 3 -->
                 <div class="team-member-box">
                     <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/Munaf.jpg?updatedAt=1709299973343" alt="Founder Image">
                     <div class="team-member-name">Abdul Munaf</div>
                     <div class="team-member-role">AIDS Undergraduate, MJCET</div>
                     <div class="team-member-cgpa">CGPA: 8.7%</div>
+                    <div class="team-member-links">
+                        <a class="linkedin" href="#" target="_blank" title="LinkedIn"></a>
+                        <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+                    </div>
                 </div>
 
+                <!-- Box 4 -->
                 <div class="team-member-box">
                     <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/c4432cfd-78b1-4499-ae9f-db287402eeea.jpg?updatedAt=1709199399147" alt="Founder Image">
                     <div class="team-member-name">Salwa Ashfaq</div>
                     <div class="team-member-role">AIML Undergraduate, NSAKCET</div>
                     <div class="team-member-cgpa">CGPA: 9.0%</div>
+                    <div class="team-member-links">
+                        <a class="linkedin" href="#" target="_blank" title="LinkedIn"></a>
+                        <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+                    </div>
                 </div>
 
+                <!-- Box 5 -->
                 <div class="team-member-box">
                     <img src="https://ik.imagekit.io/hackenvision/AYS%20Website/facf66ed-30d4-4f6e-9973-ef380230947f.jpg?updatedAt=1709199399141" alt="Founder Image">
                     <div class="team-member-name">Mehvish Fatima</div>
                     <div class="team-member-role">CSE Undergraduate, NSAKCET</div>
                     <div class="team-member-cgpa">CGPA: 8.8%</div>
+                    <div class="team-member-links">
+                        <a class="linkedin" href="#" target="_blank" title="LinkedIn"></a>
+                        <a class="instagram" href="#" target="_blank" title="Instagram"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-            </div>
-        </div>
+
+    <div class="footer">
+        Developed with "💖" by Mohammed Hussain Khan, G.H.O.S.T. All rights reserved by ACEYOURSTUDIES:O.U(B.E), 2024
     </div>
 </body>
 </html>
