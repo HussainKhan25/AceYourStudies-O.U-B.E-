@@ -1,13 +1,14 @@
-   body {
+ body {
             margin: 0;
             font-family: 'Georgia', serif; 
-            background-color: #130344;
+            background: linear-gradient(to right, #07001B, #0B0324);
             color: #C8563E;
             transition: background-color 0.5s ease;
+            
         }
 
         .navbar {
-            background-color: #000;
+            background-color: #373640;
             padding: 15px;
             text-align: left;
             display: flex;
@@ -40,7 +41,7 @@
         }
 
         .navbar a:hover {
-            color: #8C959C; 
+            color: #A3F7BF; 
         }
 
         .home-section {
@@ -61,14 +62,15 @@
             font-size: 64px;
             margin-bottom: 20px;
             animation: blink 2s infinite;
+       
         }
 
         @keyframes blink {
             0%, 100% {
-                color: #C8563E;
+                color: #ffffff;
             }
             50% {
-                color: #8C959C;
+                color: #A3F7BF;
             }
         }
       
@@ -82,7 +84,7 @@
         .home-section-box .box {
             flex: 1;
             padding: 20px;
-            border: 2px solid #FF0074;
+            border: 2px solid #ffffff;
             border-radius: 8px;
             text-align: left;
             position: relative;
@@ -91,7 +93,7 @@
         }
 
         .home-section-box .box:hover {
-            border-color: #8C959C;
+            border-color: #A3F7BF;
         }
 
         .home-section-box .box p {
@@ -117,7 +119,7 @@
         }
 
         .about-us {
-            background-color: #fff;
+            background-color: #ffffff;
             color: #000;
             padding: 64px;
             text-align: left;
@@ -155,11 +157,11 @@
         }
 
         .about-us .vision-mission:hover {
-            color: #8C959C;
+            color: #A3F7BF;
         }
 
         .team-section {
-            background-color: #130344;
+            background: linear-gradient(to right, #07001B, #0B0324);
             color: #fff;
             padding: 64px;
             text-align: center;
